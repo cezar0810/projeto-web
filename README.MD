@@ -121,3 +121,63 @@ O site será hospedado gratuitamente no GitHub Pages, pois será desenvolvido in
 | GitHub Pages | Hospedagem do site |
 | WebP e SVG | Otimização de imagens e ícones |
 
+
+## Cronograma de desenvolvimento
+| Etapa           | Atividade                                           | Responsável    | Data          |
+| --------------- | --------------------------------------------------- | -------------- | ------------- |
+| Planejamento    | Definir requisitos e estrutura de pastas            | Cezar e Rhamon | 17/08         |
+| Design          | Finalizar identidade visual e wireframes            | Cezar          | 18/08         |
+| Desenvolvimento | Criar o HTML das três páginas                       | Rhamon         | 19/08 a 20/08 |
+| Desenvolvimento | Criar o CSS e aplicar a regra 60-30-10              | Cezar          | 21/08 a 24/08 |
+| Desenvolvimento | Criar menu, filtros e interações em JavaScript      | Rhamon         | 25/08         |
+| Integração      | Juntar páginas, imagens, ícones e funcionalidades   | Cezar e Rhamon | 26/08         |
+| Testes          | Verificar links, formulário e responsividade        | Cezar e Rhamon | 27/08         |
+| Entrega         | Corrigir erros, atualizar README e enviar ao GitHub | Cezar          | 28/08         |
+
+
+## Organização em Kanban
+| A fazer                  | Em desenvolvimento         | Concluído                   |
+| ------------------------ | -------------------------- | --------------------------- |
+| Criar as páginas em HTML | Ajustar wireframes         | Requisitos definidos        |
+| Aplicar o CSS            | Organizar imagens e ícones | Identidade visual escolhida |
+| Programar interações     | Atualizar o README         | Estrutura de pastas criada  |
+| Realizar testes          | Integrar os arquivos       | Repositório Git criado      |
+
+## EAP
+AUREON MOTORS
+├── Planejamento
+│   ├── Definição do objetivo
+│   ├── Identificação do público-alvo
+│   ├── Levantamento dos requisitos
+│   ├── Definição das páginas
+│   └── Criação do cronograma
+│
+├── Design
+│   ├── Criação da identidade visual
+│   ├── Escolha das cores 60-30-10
+│   ├── Escolha das fontes
+│   ├── Criação da logo
+│   ├── Wireframe de baixa fidelidade
+│   └── Simulação de alta fidelidade
+│
+├── Desenvolvimento
+│   ├── Organização das pastas
+│   ├── Desenvolvimento da Home
+│   ├── Desenvolvimento da página Produtos
+│   ├── Desenvolvimento da página Contato
+│   ├── Aplicação do CSS
+│   ├── Implementação do JavaScript
+│   └── Inserção de imagens e ícones
+│
+├── Testes
+│   ├── Teste dos links
+│   ├── Teste do formulário
+│   ├── Teste das interações
+│   ├── Teste de responsividade
+│   └── Correção de erros
+│
+└── Entrega
+    ├── Atualização do README
+    ├── Envio das alterações ao GitHub
+    ├── Publicação no GitHub Pages
+    └── Apresentação do projeto
