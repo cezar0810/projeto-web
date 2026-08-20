@@ -108,7 +108,7 @@ ping uol.com.br
 
 O IP que apareceu foi:
 
-`COLOQUE AQUI O IP EXIBIDO NO SEU COMPUTADOR`
+`200.147.35.149`
 
 O DNS basicamente serve para transformar o nome do site (que é mais fácil de lembrar) em um número de IP, que é o endereço real usado pelos computadores para encontrar o site.
 
