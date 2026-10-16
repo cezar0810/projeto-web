@@ -1,0 +1,99 @@
+/* 
+    CABEÇALHO DA ATIVIDADE
+    Aluno: [Seu Nome Aqui]
+    Turma: [Sua Turma Aqui]
+    Data: 16/10/2026
+    Aula: Aula 14 - CSS para Formulários
+*/
+
+body {
+    background-color: #212121; /* 60% cor do projeto */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #2F2F2F; /* 30% cor do projeto */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #8e0808;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.field-row {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    background-color: #111;
+    border: 1px solid #665f5f;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+}
+
+button {
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #8e0808;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #a80a0a;
+}
+
+/* Pseudo-classes solicitadas integradas ao design do projeto */
+input:focus {
+    outline: none;
+    border-color: #8e0808;
+    box-shadow: 0 0 5px rgba(142, 8, 8, 0.5);
+}
+
+input:disabled {
+    background-color: #3b3b3b;
+    color: #999;
+    border-color: #444;
+    cursor: not-allowed;
+}
+
+input:valid {
+    border-color: #28a745;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: #8e0808;
+}
